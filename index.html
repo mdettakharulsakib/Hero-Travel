@@ -104,6 +104,118 @@
             margin-left: 15px;
             margin-top: 24px;
         }
+        .destination{
+            width: 1150px;
+            margin: 0 auto;
+            margin-top: 65px;
+            
+        }
+        .image1{
+            background-image: url(./Images/Rectangle\ 5.png);
+            color: white;
+            max-width: 100%;
+            height: 300px;
+            background-repeat: no-repeat;
+            border-radius: 8px;
+        }
+        .image2{
+            background-image: url(./Images/Rectangle\ 8.png);
+            color: white;
+            max-width: 100%;
+            height: 300px;
+            background-repeat: no-repeat;
+            border-radius: 8px;
+        }
+        #first{
+            display: grid;
+            max-width: 100%;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 15px;
+            
+        }
+        .image3{
+            background-image: url(./Images/Rectangle\ 6.png);
+            color: white;
+            max-width: 100%;
+            height: 300px;
+            background-repeat: no-repeat;
+            border-radius: 8px;
+            text-align: center;
+        }
+        .image4{
+            background-image: url(./Images/Rectangle\ 7.png);
+            color: white;
+            max-width: 100%;
+            height: 300px;
+            background-repeat: no-repeat;
+            border-radius: 8px;
+            text-align: center;
+        }
+        .image5{
+            background-image: url(./Images/Rectangle\ 9.png);
+            color: white;
+            max-width: 100%;
+            height: 300px;
+            background-repeat: no-repeat;
+            border-radius: 8px;
+            text-align: center;
+        }
+        #second{
+            display: grid;
+            max-width: 100%;
+            grid-template-columns: 374px auto 274px;
+            gap: 15px;
+            margin-top: 15px;
+        }
+        .image6{
+            background-image: url(./Images/Rectangle\ 11.png);
+            color: white;
+            max-width: 100%;
+            height: 300px;
+            background-repeat: no-repeat;
+            border-radius: 8px;
+            text-align: center;
+        }
+        .image7{
+            background-image: url(./Images/Rectangle\ 10.png);
+            color: white;
+            max-width: 100%;
+            height: 300px;
+            background-repeat: no-repeat;
+            border-radius: 8px;
+            text-align: center;
+        }
+        #third{
+            display: grid;
+            max-width: 100%;
+            grid-template-columns: 473px auto;
+            gap: 15px;
+            
+
+        }
+        .image_button{
+            background: transparent;
+            border: none;
+            cursor: pointer;
+            transition: 0.1s;
+        }
+        .image_button:hover{
+            transform: scale(1.5, 1.5); 
+        }
+        .foot{
+            background-color: lightgray;
+            width: 100%;
+            margin-top: 60px;
+            
+        }
+        .last{
+            width: 1150px;
+            margin: 0 auto;
+            
+            text-align: center;
+            padding-top: 70px;
+            padding-bottom: 50px;
+        }
     </style>
 
 </head>
@@ -153,8 +265,66 @@
         </div>
         <img class="popular-img" src="./Images/Rectangle 4.png" alt="Loading">
     </section>
+    <section class="destination">
+        <div>
+            <h1 style="font-size: 48px; font-family: Arial; font-weight: 700; text-align: Center;">Choose Your Destination</h1>
+            <p style="font-family: Arial; font-weight: 100; text-align: Center;">Here are our most visited place. If you are interested to go on a trip now. please book our service.</p>
+        </div>
+        <div id="first">
+            
+            <div class="image1">
+                <h1 style="text-align: center; padding-top: 130px;">Maldive</h1>
+            </div>
+            <div class="image2">
+                <h1 style="text-align: center; padding-top: 130px;">Indonesia</h1>
+            </div>
+
+        </div>
+        <div id="second">
+            <div class="image3">
+                <h1 style="text-align: center; padding-top: 130px;">Srilanka</h1>
+            </div>
+            <div class="image4">
+                <h1 style="text-align: center; padding-top: 130px;">North america</h1>
+            </div>
+            <div class="image5">
+                <h1 style="text-align: center; padding-top: 130px;">Kashmir</h1>
+            </div>
+
+        </div>
+        <div id="third">
+            <div class="image6">
+                <h1 style="text-align: center; padding-top: 130px;">Bangladesh</h1>
+            </div>
+            <div class="image7">
+                <h1 style="text-align: center; padding-top: 130px;">Bandarban</h1>
+            </div>
+        </div>
+    </section>
     <section>
 
     </section>
+    <section>
+
+    </section>
+    <footer class="foot">
+        <section class="last">
+            <div style="display: flex; justify-content: center; font-size: 24px;">
+                <img src="./Images/Group 40071 (2).png" alt="Loading">
+                <h1 style="font-family: arial; margin-left: 10px; margin-right: 10px; font-size: 30px;">Hero <span style="color: coral;">Travel</span></h1>
+            </div>
+            <div>
+                <p>Thanks for being beside us. We are praying for our clients all the time. Clients happiness is our responsibility.</p>
+            </div>
+            <div style="margin-top: 35px; margin-bottom: 15px;">
+                <button class="image_button"><img src="./Images/Facebook.png" alt="Loading"></button>
+                <button class="image_button"><img src="./Images/Linkedin.png" alt="Loading"></button>
+                <button class="image_button"><img src="./Images/Instagram.png" alt="Loading"></button>
+                <button class="image_button"><img src="./Images/Twitter.png" alt="Loading"></button>
+            </div>
+            <hr>
+            <p style="margin-top: 15px;">2017, All Rights Reserved.</p>
+        </section>
+    </footer>
 </body>
 </html>
