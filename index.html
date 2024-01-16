@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel web</title>
+    <style>
+        .navi{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .navi a{
+            text-decoration: none;
+            margin-left: 50px;
+            
+
+        
+        }
+        nav{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin: 0 auto;
+            max-width: 1150px;
+            padding-top: 2%;
+        }
+        .Expo_container{
+            background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.845), rgba(0, 0, 0, 0)), url(./Images/Group\ 13.png);
+            background-size: cover;
+            background-repeat: no-repeat;
+            max-width: 1150px;
+            height: 70vh;
+            margin: 0 auto;
+            margin-top: 40px;
+            text-align: center;
+            border: none;
+            border-radius: 8px;
+        }
+        .Expo_box{
+            padding-top: 100px;
+            color: white;
+            
+            
+
+        }
+        .Expo_form{
+            background-color: rgba(255, 255, 255, 0.30) ;
+            max-width: 700px;
+            border: None;
+            border-radius: 8px;
+            height: 50px;
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            flex-wrap: wrap;
+            margin-top: 50px;
+
+        }
+        .Expo_bar{
+            width: 100px;
+            height: 25px;
+            text-align: center;
+            border: none;
+            border-radius: 8px;
+            color: gray;
+            
+        }
+        #btn{
+            background-color: red;
+            color: white;
+            
+        }
+        #btn_image{
+            max-width: 10px;
+            height: 10px;
+        }
+        .popular{
+            max-width: 1150px;
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            margin: 0 auto;
+            gap: 50px;
+            margin-top: 50px;
+        }
+        .popular img{
+            width: 100%;
+        }
+        .popular-text{
+            margin: 15px 0px 15px 0px;
+            font-weight: 100;
+        }
+        .popular-btn{
+            background-color: rgb(255, 95, 80);
+            text-align: center;
+            color: white;
+            font-family: Arial;
+            cursor: pointer;
+            border: none;
+            border-radius: 5px;
+            width: 120px;
+            height: 40px;
+            margin-left: 15px;
+            margin-top: 24px;
+        }
+    </style>
+
+</head>
+<body>
+    <nav>
+        <div style="display: flex; text-align: center;">
+            <img src="./Images/Group 40071 (2).png" alt="Loading">
+            <h1 style="font-family: arial; margin-left: 10px; margin-right: 10px;">Hero <span style="color: coral;">Travel</span></h1>
+        </div>
+
+        <div class="navi">
+            <a href=""><span style="color: coral;">Home</span></a>
+            <a href=""><span style="color: black;">Packages</span></a>
+            <a href=""><span style="color: black;">Testimonial</span></a>
+            <a href=""><span style="color: black;">Blog</span></a>
+            <a href=""><span style="color: black;">Contact</span></a>
+        </div>
+    </nav>
+    <section class="Expo_container">
+        <div class="Expo_box">
+            <h1 style="font-size: 48px; font-family: Arial; font-weight: 800;">Explore Your Travel</h1>
+            <h4 style="font-weight: 100; font-size: 10px; font-family: Arial; margin-top: -15px;">Welcome to our travel site. Here you can easily get any of our decorated travel plan and can easily enjoy your trip with your family. We are hoping <br> that we have earned a huge trust beyond you guys and take care of family</h4>
+            <div class="Expo_form">
+                <input class="Expo_bar" type="option"  placeholder="Where go">
+                <select name="Expo" id="Explore" class="Expo_bar" >
+                    <option value="none">When</option>
+                </select>
+                <select name="Expo" id="Explore" class="Expo_bar">
+                    <option value="None">Select type</option>
+                </select>
+                <button class="Expo_bar" id="btn"><img id="btn_image" src="./Images/m2i8G6H7d3d3H7K9.png" alt="Loading">  Find Now</button>    
+            </div>
+        </div>
+    </section>
+    <section class="popular">
+        <div >
+            <h1 style="font-family: Arial; font-size: 36px; font-weight: 700; color: black;">Our Popular Tours</h1>
+            <p class="popular-text"> Here are some of our amazing tour if you wanna find out about our service kindly read the following statements and there are some info about our popular trips which are family events.</p>
+            <ul class="popular-text">
+                <li class="popular-text">Maldives is our one of the best tour place. Near about hundreds couple in every year want to book a honeymoon trip in Maldives via goa. in this session they may get a simple manufacture hotel room to enjoy the trip</li>
+                <li class="popular-text">Srilanka is the second most visited place with our service. There are many indians clients who choose to go on a trip in Srilanka and surprisingly they made their trip a low budget cost like buy a new food in their home.</li>
+                <li class="popular-text">And this is the last most visited place from our service which is Nepal. Nepal is the country of cross culture people. There are many interesting things to explore. In our modern world Nepal is the only place which contains the greatest mountain named Evarest.</li>
+        
+            </ul>
+            <p class="popular-text">In our service anyone may got have the important notice about the whole some prison which was like the kelly and anderson family. In every year many of our royal family wants to explore the world newest things. If you want to gon on trip, don't be late our service is waiting for you.</p>
+            <button class="popular-btn">Read More</button>
+        </div>
+        <img class="popular-img" src="./Images/Rectangle 4.png" alt="Loading">
+    </section>
+    <section>
+
+    </section>
+</body>
+</html>
